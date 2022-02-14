@@ -10,7 +10,7 @@ emoji = {'low': '\U00002198',
          'settings': '\U0001F527'}
 
 dictionary = {
-    'starrted_message': {
+    'started_message': {
         'ru_RU': 'Выбери команду: '
         '\n\n {} /lowprice - Узнать топ самых дешёвых отелей в городе'
         '\n\n {} /highprice - Узнать топ самых ддорогих отелей в городе'
