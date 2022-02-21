@@ -269,7 +269,7 @@ def photo_needed(message):
     keyboard = types.InlineKeyboardMarkup()
     [keyboard.add(types.InlineKeyboardButton(x, callback_data=x))
      for x in [dictionary['pos'][get_lang(chat_id=message.chat.id)],
-               dictionary['neq'][get_lang(chat_id=message.chat.id)]]]
+               dictionary['neg'][get_lang(chat_id=message.chat.id)]]]
     bot.send_message(message.chat.id, text=dictionary['photo_needed'][get_lang(
         chat_id=message.chat.id)], reply_markup=keyboard)
 
@@ -368,6 +368,7 @@ def result(message):
         bot.edit_message_text(chat_id=message.chat.id, message_id=temp.id,
                               text=dictionary['no_options'][get_lang(
                                   chat_id=message.chat.id)])
+
 
 bot.polling()
 
