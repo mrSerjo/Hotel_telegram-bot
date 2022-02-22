@@ -373,6 +373,6 @@ def result(message):
 bot.polling()
 
 
-# TODO В data_manager в строках 10, 11 закоменчены методы highprice и bestdeal
+# TODO В data_manager в строках 10, 11 закоменчены методы highprice и bestdeal. Добавить history
 
 
