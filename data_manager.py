@@ -8,7 +8,7 @@ import os
 sorted_functions = {
     'lowprice': lowprice.lowprice,
     'highprice': highprice.highprice,
-    #'bestdeal': bestdeal.bestdeal,
+    'bestdeal': bestdeal.bestdeal,
 }
 
 data = {
