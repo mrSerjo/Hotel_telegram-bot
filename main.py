@@ -372,7 +372,3 @@ def result(message):
 
 bot.polling()
 
-
-# TODO В data_manager в строках  11 закоменчены методы и bestdeal.
-
-
