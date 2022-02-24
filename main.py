@@ -69,7 +69,7 @@ def start_message(message):
             emoji['settings']))
 
 
-@bot.message_handler(commands=['lowprice', 'highprice', 'besdeal'])
+@bot.message_handler(commands=['lowprice', 'highprice', 'bestdeal'])
 @exc_handler
 def set_func(message):
     """Установка сортирующей функции, определение следующего шага
