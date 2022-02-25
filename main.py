@@ -238,7 +238,7 @@ def ask_for_dist_range(message):
         set_price_range(chat_id=message.chat.id, value=price_range)
         bot.send_message(
             chat_id=message.chat.id,
-            text=dictionary['ask_dict'][get_lang(chat_id=message.chat.id)])
+            text=dictionary['ask_dist'][get_lang(chat_id=message.chat.id)])
         bot.register_next_step_handler(message, ask_for_hotels_value)
 
 
