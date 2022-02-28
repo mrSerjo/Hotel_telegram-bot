@@ -19,6 +19,7 @@ city_url = 'https://hotels4.p.rapidapi.com/locations/search'
 hotel_url = 'https://hotels4.p.rapidapi.com/properties/list'
 photo_url = 'https://hotels4.p.rapidapi.com/properties/get-hotel-photos'
 
+
 def location_search(message):
     """
     Выполнение HTTP-запроса к Hotels API (rapidapi.com) (Поиск локаций (городов)).
