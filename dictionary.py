@@ -48,7 +48,7 @@ dictionary = {
     },
     'hotels_value': {
         'ru_RU': 'Сколько отелей смотрим? (не более 10)',
-        'en_US': 'How many hotels are we looking at? (max 10'
+        'en_US': 'How many hotels are we looking at? (max 10)'
     },
     'photo_needed': {
         'ru_RU': 'Показывать фотографии отелей?',
